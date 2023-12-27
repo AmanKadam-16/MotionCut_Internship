@@ -79,7 +79,7 @@ function updateWatch() {
     }
     baseImage += ".png";
     // Update the watch image source
-    watch.src = baseImage;
+    watch.src = "Images/"+baseImage;
 }
 
 // Define the function to update the unit labels based on the unit
