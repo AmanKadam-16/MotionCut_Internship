@@ -1,4 +1,4 @@
-# Week 1 Task of creating Pricing Landing Pag
+# Week 1 Task of creating Pricing Landing Page
 
 # Pricing Page Design Choices
 
