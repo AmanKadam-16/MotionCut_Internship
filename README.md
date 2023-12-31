@@ -1,4 +1,4 @@
-# Week 2 Task of creating Pricing Landing Page
+# Week 2 Task of creating Registration Form Webpage
 
 # Creating a Stylish Registration Form 
 
