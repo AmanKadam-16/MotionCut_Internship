@@ -1,6 +1,6 @@
 # Week 2 Task of creating Registration Form Webpage
 
-# Creating a Stylish Registration Form 
+## Creating a Registration Form 
 
 ![Registration Form Screenshot](https://github.com/AmanKadam-16/MotionCut_Internship/blob/Week_2/SnapShot.jpg)
 
