@@ -1,134 +1,177 @@
-/* Custom CSS file */
-body{
-
-    overflow-x: hidden;
-}
-/* Variables for colors */
-:root {
-    --primary-color: #deaee8;
-    --secondary-color: #6c757d;
-    --success-color: #28a745;
-    --danger-color: #dc3545;
-    --warning-color: #ffc107;
-    --info-color: #b8179b;
-    --light-color: #f8f9fa;
-    --dark-color: #343a40;
-    --white-color: #ffffff;
-    --black-color: #000000;
+/* style.css */
+/* style.css */
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
-/* Header section */
-.header {
-    background-color: var(--primary-color);
-    padding: 5px;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  background-color: #f0f0f0;
+  display: flex;
+  align-items: center;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
 }
 
 .logo {
-    width: 460px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  text-decoration: none;
 }
 
-/* Main section */
-.main {
-    padding: 40px;
+.menu {
+  list-style: none;
+  display: flex;
 }
 
-.watch {
-    width: 100%;
-    max-width: 400px;
-    margin: 0 auto;
+.menu li {
+  margin: 0 10px;
 }
 
-.title {
-    font-size: 48px;
-    font-weight: bold;
-    margin-bottom: 20px;
+.menu li a {
+  text-decoration: none;
+  color: #333;
+  font-size: 18px;
 }
 
-.subtitle {
-    font-size: 24px;
-    font-weight: normal;
-    margin-bottom: 20px;
+.search {
+  display: flex;
+  border: 1px solid #ccc;
+  border-radius: 5px;
 }
 
-.price {
-    font-size: 36px;
-    font-weight: bold;
-    margin-bottom: 20px;
+.search input {
+  width: 300px;
+  height: 40px;
+  padding: 10px;
+  border: none;
+  outline: none;
 }
 
-.currency {
-    font-size: 24px;
-    vertical-align: top;
+.search button {
+  width: 100px;
+  height: 40px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: #333;
+  color: #fff;
+  font-size: 16px;
 }
 
-.amount {
-    font-size: 36px;
+.icons {
+  display: flex;
 }
 
-.period {
-    font-size: 24px;
-    vertical-align: bottom;
+.icons a {
+  margin: 0 10px;
 }
 
-.features {
-    margin-bottom: 20px;
+.icons a img {
+  width: 30px;
+  height: 30px;
 }
 
-.features ul {
-    list-style-type: none;
-    padding-left: 0;
+.product-page {
+  margin: 20px 0;
+  display: flex;
 }
 
-.features li {
-    margin-bottom: 10px;
+.product-image {
+  width: 50%;
 }
 
-.options {
-    margin-bottom: 20px;
+.product-image img {
+  width: 50%;
+  height: auto;
+  object-fit: cover;
 }
 
-.options .form-group {
-    margin-bottom: 10px;
+.product-info {
+  width: 50%;
+  padding: 20px;
 }
 
-.action {
-    margin-bottom: 20px;
+.product-name {
+  font-size: 32px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
 }
 
-/* Footer section */
+.product-description {
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.product-price {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.cta-button {
+  width: 200px;
+  height: 50px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: #333;
+  color: #fff;
+  font-size: 20px;
+  border-radius: 5px;
+}
+
 .footer {
-    background-color: var(--secondary-color);
-    padding: 20px;
+  background-color: #333;
+  padding: 10px;
+  margin-top: auto;
+
 }
 
-.copy {
-    color: var(--white-color);
-    font-size: 14px;
+.footer-text {
+  font-size: 16px;
+  color: #fff;
+  text-align: center;
 }
 
-/* Media queries for responsiveness */
-@media (max-width: 768px) {
-    .title {
-        font-size: 36px;
-    }
+@media screen and (max-width: 768px) {
+  .container {
+      flex-direction: column;
+  }
 
-    .subtitle {
-        font-size: 18px;
-    }
+  .menu {
+      display: none;
+  }
 
-    .price {
-        font-size: 24px;
-    }
+  .search {
+      margin: 10px 0;
+  }
 
-    .currency {
-        font-size: 18px;
-    }
+  .product-page {
+      flex-direction: column;
+  }
 
-    .amount {
-        font-size: 24px;
-    }
-
-    .period {
-        font-size: 18px;
-    }
+  .product-image, .product-info {
+      width: 50%;
+  }
 }
