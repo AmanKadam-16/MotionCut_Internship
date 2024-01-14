@@ -1,5 +1,3 @@
- Here is a draft readme file for your project:
-
 # Web Development Project 3 | Week 3
 
 ## Project Snapshot
@@ -41,4 +39,3 @@ There is still scope to enhance this by adding:
 - Interactive features without page reloads using AJAX
 - Complex CSS animations
 
-Overall, it gave good exposure to end-to-end development of a web application.
