@@ -1,37 +1,44 @@
-# Week 2 Task of creating Registration Form Webpage
+ Here is a draft readme file for your project:
 
-## Creating a Registration Form 
+# Web Development Project 3 | Week 3
 
-![Registration Form Screenshot](https://github.com/AmanKadam-16/MotionCut_Internship/blob/Week_3/SnapShot.jpg)
+## Project Snapshot
 
-## Design Choices
+![Project Snapshot](https://github.com/AmanKadam-16/MotionCut\_Internship/blob/Week\_3/SnapShot.jpg)  
 
-I wanted to create an aesthetically pleasing registration form with a stylish glassmorphism design. Here were some of my key design choices:
+## Overview
 
-* Used a full background image with the form centered on top to create an immersive experience
-* Styled the form with glassmorphism using semi-transparent whites and blurred backdrop filters to give a slick look
-* Made the form glow subtly against the background using box shadows and borders
-* Used clean sans-serif fonts and gave elements bolding and coloring for good information hierarchy
+This project involves creating an e-commerce product page website using HTML, CSS and JavaScript. 
 
 ## Features
 
-In terms of functionality, I included some standard registration form features:
+- Clean and responsive UI using Flexbox and media queries
+- Navigation bar with logo, menus, search bar and icons
+- Product image, name, description, price and add to cart button
+- Footer with copyright text
 
-* :fontawesome-solid-user: Username field 
-* :fontawesome-solid-envelope: Email field
-* :fontawesome-solid-lock: Password field
-* :fontawesome-solid-check: Submit button
+## Challenges and Solutions
 
-I made sure to:
+- Making the page fully responsive for mobile views
+  - Used flex-direction column and adjusted widths using percentages
+- Centering content on page
+  - Used margin: 0 auto on container div
+- Vertically aligning footer on bottom
+  - Used flex & margin-top: auto on footer
 
-* Use appropriate input types like email and password 
-* Add the `required` attribute for validation
-* Give inputs placeholder text as hints for users
+## Conclusion
 
-## Challenges
+This was a good project to practice web development concepts like:
 
-Some challenges I ran into:
+- Semantic HTML tags
+- Flexbox layouts
+- Media queries for responsiveness
+- Basic CSS animations
 
-* Getting the glassmorphism styling right - took some tweaking with transparencies  
-* Centering the form perfectly on all screen sizes - flexbox saved the day
-* Restricting the background image from scrolling - used `height: 100vh`
+There is still scope to enhance this by adding:
+
+- More pages like cart, checkout etc.
+- Interactive features without page reloads using AJAX
+- Complex CSS animations
+
+Overall, it gave good exposure to end-to-end development of a web application.
